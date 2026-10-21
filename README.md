@@ -4,7 +4,7 @@
 
 Tick your kitchen once (the browser remembers it), say how lazy you feel today, press one button. A deterministic matcher picks tonight's top 3 from a **40-recipe open database** — ranked by fewest things missing and least effort — plus an "एक चीज़ ले आओ" (bring just one thing) shortlist. Gemma only writes the mood: a Hinglish verdict, a one-line pitch and a chef tip per dish, and it parses your messy free-text ("thoda basi chawal, aadha gobhi") onto the ingredient vocabulary. **The model never chooses recipes and never invents ingredients** — every id in its output is clamped to the database.
 
-- **Live app:** https://aaj-kya-banau.onrender.com/
+- **Live app:** https://aaj-kya-banau-rcaf.onrender.com/
 - **Built for:** [Hacktoberfest 2026 · Week 3: Slow and Steady](https://dev.to/challenges/hacktoberfest-week3-2026-10-19) — open AI that *rewards laziness*
 - **Stack:** Python + Gradio (UI, BrowserState persistence) · Gemma (mood + parsing only) · deterministic matcher (all decisions) · Render
 
